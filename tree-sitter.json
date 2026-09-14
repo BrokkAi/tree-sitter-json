@@ -1,4 +1,5 @@
 {
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
   "grammars": [
     {
       "name": "json",
@@ -12,17 +13,20 @@
     }
   ],
   "metadata": {
-    "version": "0.24.8",
+    "version": "0.24.9",
     "license": "MIT",
-    "description": "JSON grammar for tree-sitter",
+    "description": "Brokk-maintained Tree-sitter grammar for JSON",
     "authors": [
       {
         "name": "Max Brunsfeld",
         "email": "maxbrunsfeld@gmail.com"
+      },
+      {
+        "name": "Brokk"
       }
     ],
     "links": {
-      "repository": "https://github.com/tree-sitter/tree-sitter-json"
+      "repository": "https://github.com/BrokkAi/tree-sitter-json"
     }
   },
   "bindings": {

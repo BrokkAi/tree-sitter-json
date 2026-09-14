@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.13)
 project(tree-sitter-json
         VERSION "0.24.8"
         DESCRIPTION "JSON grammar for tree-sitter"
-        HOMEPAGE_URL "https://github.com/tree-sitter/tree-sitter-json"
+        HOMEPAGE_URL "https://github.com/BrokkAi/tree-sitter-json"
         LANGUAGES C)
 
 option(BUILD_SHARED_LIBS "Build using shared libraries" ON)

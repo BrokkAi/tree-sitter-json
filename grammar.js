@@ -8,11 +8,13 @@
 /// <reference types="tree-sitter-cli/dsl" />
 // @ts-check
 
-module.exports = grammar({
+export default grammar({
   name: 'json',
 
+  // RFC 8259 section 2 permits exactly these four whitespace characters
+  // between JSON tokens. Keep invalid controls visible to consumers.
   extras: $ => [
-    /\s/,
+    /[ \t\n\r]/,
     $.comment,
   ],
 

@@ -531,7 +531,7 @@
   "extras": [
     {
       "type": "PATTERN",
-      "value": "\\s"
+      "value": "[ \\t\\n\\r]"
     },
     {
       "type": "SYMBOL",
@@ -544,5 +544,6 @@
   "inline": [],
   "supertypes": [
     "_value"
-  ]
+  ],
+  "reserved": {}
 }
